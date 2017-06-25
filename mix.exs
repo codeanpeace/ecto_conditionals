@@ -31,6 +31,6 @@ defmodule EctoConditionals.Mixfile do
   end
 
   defp deps do
-    [{:ecto, ">= 0.0.0"}]
+    [{:ecto, ">= 0.0.0"}, {:ex_doc, ">= 0.0.0", only: :dev}]
   end
 end
